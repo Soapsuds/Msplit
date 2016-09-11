@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="24"
+    density="420dpi"
+    format="7"
+    timestamp="3248641348641"
+    token="-3528552162323119679"
+    verifier="BINARY_MANIFEST_FILE_CHANGE" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="122" />
+    <task
+        name="verifier"
+        duration="11" />
+
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/res/resources-debug.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_ff01060d2ddb175458ae18372de02701a7c1a196/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_9e3ca7b492dd7a2110070115892a54e44b1fa8a1/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_682cc817b9b106e7d1a37cb64a6b6766e7704dcd/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_92b0653f5c242fcee6f7aee77968f43270375fe4/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_d1c1cfe3123342d82497a20b77f4a0f3487cb420/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_71357d9ce767dfde655e137fdd394d5a4a5c2422/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.2.4_8cd7e65f7612a53d9b4b375eec76c9b6857fc72c/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_cbbcb6f56a00d4703b8329a700965186a44858c7/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_91c621ed827586461ded22116e3b557816ac488f/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_a10e17ab01d622c0cd4d20e6ad4ca61cb89fccb6/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ce67a0683eaf2b1e84d3a94a65fe08cd7b2a01e0/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_d62a23a86babc07c6b80ec93b84805d4295abb7f/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_fff7293e191dc178b4be71d476b26cad1eebaec3/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_aa243c1ffbf2c09b58a1adef4ce713ca9e8d7a18/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_c532c43d185a81508d6e50db641e48f81795e81f/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_ced64a1d209ff72f434cc898f088451943e98c46/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_83ada224d5ad3e46dae28c0a70d5f0f615c54024/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+        type="DEX" />
+
+</instant-run>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/res/merged/debug/menu/edit.xml",
+        "source": "/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/src/main/res/menu/edit.xml"
+    },
+    {
+        "merged": "/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/build/intermediates/res/merged/debug/menu/activity_main.xml",
+        "source": "/mnt/TB/Programs/AndroidStudioProjects/Msplit/app/src/main/res/menu/activity_main.xml"
+    }
+]
