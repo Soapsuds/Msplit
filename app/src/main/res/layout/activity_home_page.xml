@@ -11,7 +11,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:onClick="newRun"
-        android:text="Create New Split" />
+        android:text="@string/create_new_run" />
 
     <Button
         android:id="@+id/loadexistingsplit"
@@ -21,7 +21,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:onClick="loadRun"
-        android:text="Load Existing Split" />
+        android:text="@string/load_existing_run" />
 
     <ListView
         android:id="@android:id/list"
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Recent Splits"
+        android:text="@string/recent_runs"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

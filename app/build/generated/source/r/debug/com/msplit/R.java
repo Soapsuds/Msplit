@@ -2013,12 +2013,15 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f050011;
         public static final int abc_toolbar_collapse_description=0x7f050012;
         public static final int app_name=0x7f050021;
-        public static final int hello_world=0x7f050022;
-        public static final int menu_settings=0x7f050023;
+        public static final int create_new_run=0x7f050022;
+        public static final int hello_world=0x7f050023;
+        public static final int load_existing_run=0x7f050024;
+        public static final int menu_settings=0x7f050025;
+        public static final int recent_runs=0x7f050026;
         public static final int search_menu_title=0x7f050013;
         public static final int status_bar_notification_info_overflow=0x7f050014;
-        public static final int title_activity_home_page=0x7f050024;
-        public static final int title_activity_main=0x7f050025;
+        public static final int title_activity_home_page=0x7f050027;
+        public static final int title_activity_main=0x7f050028;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f07008a;

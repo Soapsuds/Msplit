@@ -1,11 +1,5 @@
 package com.msplit.edit;
 
-import java.io.IOException;
-
-import com.msplit.R;
-import com.msplit.urnmodel.Urn;
-import com.msplit.urnmodel.UrnSplit;
-import com.msplit.urnmodel.UrnUtil;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -15,11 +9,18 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
-import android.widget.AdapterView.OnItemClickListener;
+
+import com.msplit.R;
+import com.msplit.urnmodel.Urn;
+import com.msplit.urnmodel.UrnSplit;
+import com.msplit.urnmodel.UrnUtil;
+
+import java.io.IOException;
 
 public class EditSplitActivity extends Activity implements OnItemClickListener {
 	public static final String URN_TO_EDIT = "URN_TO_EDIT";
@@ -34,8 +35,15 @@ public class EditSplitActivity extends Activity implements OnItemClickListener {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.editurn);
 		editSplitListView = (ListView) findViewById(R.id.editsplitlistview);
-		urn = (Urn) getIntent().getExtras().get(URN_TO_EDIT);
-		urn.fixUrnSplits();
+
+		if (getIntent().hasExtra(URN_TO_EDIT)) {
+			urn = (Urn) getIntent().getExtras().get(URN_TO_EDIT);
+			urn.fixUrnSplits(); //This seems like a strange spot to do this.
+		}
+		else {
+			urn = new Urn();
+		}
+
 		titleText = (EditText) findViewById(R.id.edittitle);
 		if (urn.getFilename() != null) {
 			oldFileName = urn.getFilename();

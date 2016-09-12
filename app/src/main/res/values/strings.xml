@@ -5,5 +5,8 @@
     <string name="title_activity_main">Msplit</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_home_page">Msplit</string>
+    <string name="create_new_run">Create New Run</string>
+    <string name="load_existing_run">Load Existing Run</string>
+    <string name="recent_runs">Recent Runs</string>
 
 </resources>

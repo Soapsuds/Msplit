@@ -1,19 +1,20 @@
 package com.msplit.homepage;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import com.msplit.MainActivity;
-import com.msplit.R;
-import com.msplit.urnmodel.UrnUtil;
-
-import android.os.Bundle;
 import android.app.AlertDialog;
 import android.app.ListActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.ListView;
+
+import com.msplit.MainActivity;
+import com.msplit.R;
+import com.msplit.edit.EditSplitActivity;
+import com.msplit.urnmodel.UrnUtil;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class HomePage extends ListActivity {
 
@@ -49,8 +50,7 @@ public class HomePage extends ListActivity {
 	}
 
 	public void newRun(View v) {
-		Intent i = new Intent(this, MainActivity.class);
-		i.putExtra(MainActivity.URN_NAME_PARAM, (String) null);
+		Intent i = new Intent(this, EditSplitActivity.class);
 		startActivity(i);
 		overridePendingTransition(R.anim.anim_in_left, R.anim.anim_out_left);
 	}

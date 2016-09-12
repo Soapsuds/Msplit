@@ -1,21 +1,11 @@
 package com.msplit;
 
-import java.io.IOException;
-import java.util.Timer;
-
-import com.msplit.R;
-import com.msplit.ResetCheckPipeline.ResetCallBack;
-import com.msplit.edit.EditSplitActivity;
-import com.msplit.urnmodel.Urn;
-import com.msplit.urnmodel.UrnUtil;
-import com.msplit.util.FadingTextView;
-
-import android.os.Bundle;
-import android.os.Vibrator;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Bundle;
+import android.os.Vibrator;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -26,9 +16,18 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.msplit.ResetCheckPipeline.ResetCallBack;
+import com.msplit.edit.EditSplitActivity;
+import com.msplit.urnmodel.Urn;
+import com.msplit.urnmodel.UrnUtil;
+import com.msplit.util.FadingTextView;
+
+import java.io.IOException;
+import java.util.Timer;
+
 public class MainActivity extends Activity {
 	public final static String URN_NAME_PARAM = "com.msplit.urnNameParam";
-	public final static long DOUBLE_SPLIT_PREVENT_TIME_MILLIS = 500;
+	public final static long DOUBLE_SPLIT_PREVENT_TIME_MILLIS = 0;
 	public int counter = 0;
 	public TextView mainTimer;
 	public TextView splitDelta;
